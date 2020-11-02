@@ -1,0 +1,51 @@
+@import './common.less';
+
+body h1, body h2, body h3, body h4, body h5, body h6, body p, body ul, body li{
+  padding: 0;
+  margin: 0 ;
+  list-style: none;
+}
+
+html {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.testpaper-wrapper {
+  height: 100%;
+
+  .testpaper-main {}
+}
+
+@media screen and (max-width: 576px) {
+  .testpaper-wrapper {
+
+    .testpaper-main {
+      height: 100%;
+    }
+  }
+}
